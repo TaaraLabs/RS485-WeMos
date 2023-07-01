@@ -32,6 +32,9 @@ uart:
   parity: NONE
 
 modbus:
+  # Wemos D1 Mini
+  # flow_control_pin: 2
+  # Wemos C3 Mini
   flow_control_pin: 6
   id: modbus1
 
